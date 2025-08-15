@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh Juice Paradise - Register</title>
+    <title>Juice Heaven - Register</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -146,15 +146,17 @@
             <!-- Header -->
             <div class="text-center mb-8 animate-slideInDown">
                 <div class="flex items-center justify-center mb-4">
-                    <div class="w-12 h-12 bg-gradient-to-r from-juice-orange to-orange-400 rounded-xl flex items-center justify-center text-2xl mr-3 shadow-lg">
-                        🧃
+                    <img src="{{ asset('logo/logo.png') }}" alt="Juice Heaven Logo" class="h-12 w-12 rounded-full shadow-lg mr-3">
+                    <div>
+                        <div class="text-xl font-bold bg-gradient-to-r from-green-600 to-orange-500 bg-clip-text text-transparent">
+                            Juice Heaven
+                        </div>
+                        <div class="text-xs text-gray-500 font-medium">
+                            FRESH HEALTHY DELICIOUS
+                        </div>
                     </div>
-                    <h1 class="text-2xl font-bold text-gray-800">
-                        <span class="text-juice-orange">Fresh</span> & 
-                        <span class="text-juice-green">Healthy</span>
-                    </h1>
                 </div>
-                <p class="text-gray-600 text-sm">Join Fresh Juice Paradise today</p>
+                <p class="text-gray-600 text-sm">Join Juice Heaven today</p>
             </div>
 
             <!-- Guest Layout Container -->
